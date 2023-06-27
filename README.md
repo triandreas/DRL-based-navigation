@@ -19,11 +19,11 @@ For each environment, which refers to a different task for the auto-navigated ag
 
 ### DQN Navigation Track
 <br>
-<img src="images/NavTrack_DQN_RF_TRAIN.png" width="600px">
+<img src="images/NavTrack_DQN_RF_TRAIN.png" width="450px">
 
 ### PPO Navigation Goal
 <br>
-<img src="images/NavGoal_PPO_BEST_TRAIN.png" width="600px">
+<img src="images/NavGoal_PPO_BEST_TRAIN.png" width="450px">
 
 
 ## Resulting autonomous navigation of trained models
