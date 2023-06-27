@@ -26,10 +26,10 @@ For each environment, which refers to a different task for the auto-navigated ag
 
 ## Resulting autonomous navigation of trained models
 
-#### DQN Navigation Track trained model at 95 episodes:
+#### DQN Navigation Track trained model at 95 episodes (~10000 steps):
 <img src="images/DQN-NavTrack-95.gif" width="400px">
 
-#### PPO Navigation Goal trained model at 30 epochs:
+#### PPO Navigation Goal trained model at 30 epochs (300000 steps):
 <img src="images/PPO-NavGoal-30.gif" width="400px">
 
 
