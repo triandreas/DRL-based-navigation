@@ -26,7 +26,7 @@ if __name__ == '__main__':
     observation_input = keras.Input(shape=(observation_dimensions,), dtype=tf.float32)
     mlp = observation_input
     for size in sizes[:-1]:
-        mlp = layers.Dense(units=size, activation='relu')(mlp)
+        mlp = layers.Dense(units=size, activation=tf.tanh)(mlp)
     mlp = layers.Dense(units=sizes[-1], activation=None)(mlp)        
     actor = keras.Model(inputs=observation_input, outputs=mlp)
     
