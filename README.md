@@ -17,24 +17,20 @@ For each environment, which refers to a different task for the auto-navigated ag
 
 ## Example training results
 
-### DQN Navigation Track
-<br>
+#### DQN Navigation Track
 <img src="images/NavTrack_DQN_RF_TRAIN.png" width="450px">
 
-### PPO Navigation Goal
-<br>
+#### PPO Navigation Goal
 <img src="images/NavGoal_PPO_BEST_TRAIN.png" width="450px">
 
 
 ## Resulting autonomous navigation of trained models
 
-### DQN Navigation Track trained model at 95 episodes:
-<br>
-<img src="images/DQN-NavTrack-95.gif" width="300px">
+#### DQN Navigation Track trained model at 95 episodes:
+<img src="images/DQN-NavTrack-95.gif" width="200px">
 
-### PPO Navigation Goal trained model at 30 epochs:
-<br>
-<img src="images/PPO-NavGoal-30.gif" width="300px">
+#### PPO Navigation Goal trained model at 30 epochs:
+<img src="images/PPO-NavGoal-30.gif" width="200px">
 
 
 ## References
